@@ -93,14 +93,17 @@ input::placeholder {
 form [type="submit"] {
     height: 50px;
     width: 100%;
-    background-color: blueviolet;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: 'Sometype Mono', sans-serif;
 }
 
 form [type="submit"]:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
     cursor: pointer;
+    border: none;
 }
 
 footer {
