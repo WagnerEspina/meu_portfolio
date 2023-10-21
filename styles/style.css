@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Sometype Mono', sans-serif;
+    background-color: rgb(226, 226, 226);
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-inline: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+hr {
+    margin-top: 1%;
+}
+
+div[class="sobre-content"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+section {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+article img {
+    max-width: 360px;
+    max-height: 360px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0 auto;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+input::placeholder {
+    font-family: 'Sometype Mono', sans-serif;
+    font-size: 15px;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-family: 'Sometype Mono', sans-serif;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    margin: 2%;
+}
