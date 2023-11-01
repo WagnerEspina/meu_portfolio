@@ -47,7 +47,6 @@ section {
 }
 
 div[class="oquefaco-content"] aside {
-    justify-content: space-evenly;
     margin-left: 3%;
     text-align: center;
     line-height: 5px;
@@ -120,3 +119,4 @@ footer {
     font-size: 15px;
     margin: 2%;
 }
+

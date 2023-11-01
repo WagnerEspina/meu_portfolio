@@ -85,11 +85,13 @@
         <hr>
         <div class="contato-content">
             <h1>VAMOS TRABALHAR<br>EM ALGO JUNTOS?</h1>
-            <form>
-                <input type="text" placeholder="Primeiro Nome">
-                <input type="text" placeholder="Último Nome">
-                <input type="text" placeholder="Telefone">
-                <input type="email" placeholder="E-mail">
+            <form id="formulario" action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="cae691d3-3e35-4444-88b6-3a3c74092d8d">
+                <input type="hidden" name="redirectTo" value="https://wagnerespina.github.io/meu_portfolio/#contato">
+                <input type="text" name="name"  placeholder="Nome">
+                <input type="text" name="phone" placeholder="WhatsApp">
+                <input type="text" name="email" placeholder="E-mail">
+                <input type="text" name="message" placeholder="assunto">
                 <input type="submit" value="Enviar">
             </form>
         </div>
