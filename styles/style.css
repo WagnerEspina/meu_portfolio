@@ -1,6 +1,10 @@
 @media screen and (max-width: 768px) {
     body {
         font-size: 14px;}
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
     h1 {
         font-size: 30px;}
     div[class="contato-content"] h1 {
@@ -10,7 +14,7 @@
     form {
         display: flex;
         flex-direction: column;
-        max-width: 70%;
+        max-width: max-content;
         border: 2px solid #000;
         padding: 20px;
         border-radius: 18px;
