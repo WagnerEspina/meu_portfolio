@@ -2,16 +2,10 @@
     body {
         font-size: 14px;}
     header {
-        padding: 15px 0;}
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin: 10;
+        display: none;
     }
     h1 {
-        font-size: 30px;}
+        display: none;}
     div[class="contato-content"] h1 {
         font-size: 25px;}
     article img {
