@@ -4,8 +4,10 @@
     header {
         display: none;
     }
+
     h1 {
-        display: none;}
+        display: none;
+    }
     div[class="contato-content"] h1 {
         font-size: 25px;}
     article img {
